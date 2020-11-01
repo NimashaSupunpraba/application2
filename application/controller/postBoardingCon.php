@@ -39,9 +39,6 @@ if(isset($_POST['submit']))
 
     boarding::postBoarding($Hnumber,$lane,$city,$district,$description,$image_name,$individual,$gender,$Pcount,$CPperson,$Keymoney,$Lifespan,$Aamount,$connection);
 
-print_r($_POST);
-
-print_r($_FILES);
 
 }
 ?>
