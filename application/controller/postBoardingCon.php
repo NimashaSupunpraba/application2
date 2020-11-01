@@ -8,6 +8,7 @@
 
 <?php
 
+
 if(isset($_POST['submit']))
 {
     $Hnumber=$_POST['Hnumber'];
@@ -36,8 +37,8 @@ if(isset($_POST['submit']))
     $Aamount=$_POST['Aamount'];
 
     //echo $Hnumber;
-
-    boarding::postBoarding($Hnumber,$lane,$city,$district,$description,$image_name,$individual,$gender,$Pcount,$CPperson,$Keymoney,$Lifespan,$Aamount,$connection);
+    $id=$_SESSION['BOid'];
+    boarding::postBoarding($id,$Hnumber,$lane,$city,$district,$description,$image_name,$individual,$gender,$Pcount,$CPperson,$Keymoney,$Lifespan,$Aamount,$connection);
 
 
 }
