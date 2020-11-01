@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/miscellaneous-shopping-basket-bike-large-flower-grass-green-town-street-bicycle-blur-background-wallpaper-widescreen-full-screen-hd-wallpapers.jpg);
+    margin-top: 40px;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.postBoarding {
+    width: 800px;
+    background-color: rgb(217, 217, 217, 0.9);
+    margin: auto;
+    color: #000000;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    font-size: 20px;
+}
+
+.main {
+    background-color: rgb(217, 217, 217, 0.9);
+    width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+
+form {
+    padding: 10px;
+}
+
+#name {
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+}
+
+.name {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 220px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    /* background-color: red; */
+}
+
+.hnumber {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    /* box-shadow: 9px 9px 16px #a3b1c699, -9px -9px 16px #ffffff80; */
+}
+
+.hLable {
+    position: relative;
+    color: rgb(97, 44, 44);
+    text-transform: capitalize;
+    font-size: 12px;
+    left: 24px;
+    top: 0px;
+}
+
+.lane {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 30px;
+}
+
+.lLable {
+    position: relative;
+    color: rgb(97, 44, 44);
+    text-transform: capitalize;
+    font-size: 12px;
+    left: 24px;
+    top: 0px;
+}
+
+.city {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 30px;
+}
+
+.cityLable {
+    position: relative;
+    color: rgb(97, 44, 44);
+    text-transform: capitalize;
+    font-size: 12px;
+    left: 24px;
+    top: 0px;
+}
+
+.district {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 30px;
+}
+
+.lDis {
+    position: relative;
+    color: rgb(97, 44, 44);
+    text-transform: capitalize;
+    font-size: 12px;
+    left: 24px;
+    top: 0px;
+}
+
+#location {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 5px;
+}
+
+#description {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 12px;
+}
+
+#BCimage {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid rgb(217, 217, 217, 0.9);
+    margin-top: 2px;
+    border: none;
+    box-shadow: none;
+}
+
+.radio {
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 15px;
+    margin-left: 55px;
+    margin-top: 15px;
+    color: black;
+}
+
+.radio input {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+#pcount {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: -1px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 9px;
+    text-align: center;
+    width: 40px;
+}
+
+#cpperson {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 4px;
+}
+
+#Keymoney {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 5px;
+}
+
+#Aamount {
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    border: none;
+    padding: 0 22px;
+    font-size: 15px;
+    background-color: transparent;
+    margin-top: 5px;
+    text-align-last: left;
+    width: 100px;
+    box-shadow: none;
+}
+
+#lifespan {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: -1px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 4px;
+    text-align: center;
+    width: 40px;
+}
+
+#submit {
+    width: 45%;
+    padding: 15px 10px;
+    background: rgb(214, 214, 214);
+    border: 2px solid #121312;
+    border-radius: 25px;
+    color: #EB5758;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: -7px -7px 20px 0 #ffffffb3, 7px 7px 20px 0 #00000033;
+    margin-left: 200px;
+}
+
+#submit:hover {
+    box-shadow: inset -7px -7px 20px 0 #ffffffb3, inset 7px 7px 20px 0 #00000033;
+}
+
+input:hover {
+    box-shadow: inset -10px -10px 30px 0 #ffffffb3, inset 10px 10px 30px 0 #00000033;
+}
+
+#Aamount input:hover {
+    box-shadow: inset -10px -10px 30px 0 #ffffffb3, inset 10px 10px 30px 0 #00000033;
+}
+
+#Aamount input[type="text"] {
+    width: 300px;
+    border: none;
+    padding: 5px;
+    color: brown;
+}
+
+.second_name {
+    margin-left: 20px;
+}
+
+#resName {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 5px;
+}
+
+#address {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 5px;
+}
+
+#otDeadline {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 0px;
+}
+
+#pName {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 5px;
+}
+
+#pimage {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 5px;
+    border: none;
+    box-shadow: none;
+}
+
+#price {
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    line-height: 35px;
+    border-radius: 0px;
+    padding: 0 22px;
+    font-size: 15px;
+    border: 1px solid#e0e5ec;
+    margin-top: 5px;
+}
