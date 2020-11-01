@@ -41,9 +41,9 @@ if(isset($_POST['submit']))
         $Aamount=$_POST['Aamount'];
 
         //echo $Hnumber;
-
-        foodSupplierPost::foodPost($resName,$address,$location,$description,$image_name,$type,$otDeadline,$Lifespan,$Aamount,$connection);
-
+        $fid=$_SESSION['FSid'];
+        foodSupplierPost::foodPost($fid,$resName,$address,$location,$description,$image_name,$type,$otDeadline,$Lifespan,$Aamount,$connection);
+//database post id 
         header('Location:../views/iteam.php');
 
         print_r($_POST);

@@ -38,22 +38,22 @@ print_r($_FILES);
 			
 				<h3 class="name">Breakfirst</h3 >
 				<label class="radio">
-					<input type="radio" name="breakfirst" id="breakfirst" value="yes"><span id="breakfirst" >&nbsp; Yes</span>&nbsp;&nbsp;
-					<input type="radio" name="breakfirst" id="breakfirst" value="no"><span id="breakfirst" >&nbsp; No</span>&nbsp;&nbsp;<br>
+					<input type="radio" name="breakfirst" id="breakfirst" value="1"><span id="breakfirst" >&nbsp; Yes</span>&nbsp;&nbsp;
+					<input type="radio" name="breakfirst" id="breakfirst" value="0"><span id="breakfirst" >&nbsp; No</span>&nbsp;&nbsp;<br>
 				</label>
 				
 		
 				<h3 class="name">Lunch</h3 >
 				<label class="radio">
-					<input type="radio" name="lunch" id="lunch" value="yes"><span id="lunch" >&nbsp; Yes</span>&nbsp;&nbsp;
-					<input type="radio" name="lunch" id="lunch" value="no"><span id="lunch" >&nbsp; No</span>&nbsp;&nbsp;<br>
+					<input type="radio" name="lunch" id="lunch" value="1"><span id="lunch" >&nbsp; Yes</span>&nbsp;&nbsp;
+					<input type="radio" name="lunch" id="lunch" value="0"><span id="lunch" >&nbsp; No</span>&nbsp;&nbsp;<br>
 				</label>
 				
 		
 				<h3 class="name">Dinner</h3 >
 				<label class="radio">
-					<input type="radio" name="dinner" id="dinner" value="yes"><span id="dinner" >&nbsp; Yes</span>&nbsp;&nbsp;
-					<input type="radio" name="dinner" id="dinner" value="no"><span id="dinner" >&nbsp; No</span>&nbsp;&nbsp;<br>
+					<input type="radio" name="dinner" id="dinner" value="1"><span id="dinner" >&nbsp; Yes</span>&nbsp;&nbsp;
+					<input type="radio" name="dinner" id="dinner" value="0"><span id="dinner" >&nbsp; No</span>&nbsp;&nbsp;<br>
 				</label>
 						
 				
